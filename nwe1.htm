@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 1</title>
+    <style>
+        .trigger {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="trigger" id="hoverDiv">Hover over me</div>
+
+    <script>
+        document.getElementById('hoverDiv').addEventListener('mouseover', function() {
+            // Use fetch to send a notification to page2.html
+            fetch('http://localhost:8000/notifyOtherPage') // Assuming your server is running on localhost:8000
+                .then(response => {
+                    console.log('Notification sent to page2');
+                })
+                .catch(error => {
+                    console.error('Error sending notification:', error);
+                });
+        });
+    </script>
+</body>
+</html>

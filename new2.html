@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page 2</title>
+    <script>
+        // This script would be part of your server-side logic (e.g., Node.js with Express)
+        // For demo purposes, we simulate the server-side logic in the browser using localStorage
+
+        // Handle the fetch request from page1
+        window.addEventListener('DOMContentLoaded', () => {
+            window.addEventListener('storage', (event) => {
+                if (event.key === 'notification') {
+                    console.log('Received notification from page1');
+                    // Update page content or perform desired action
+                    document.getElementById('targetDiv').textContent = 'Hover action detected!';
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="targetDiv">Waiting for notification...</div>
+</body>
+</html>

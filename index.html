@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHARGHAR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="moviecheet.css">
+    <script src="Ghr.js"></script>
+</head>
+<body>
+    <!-- header section starts  -->
+
+<header class="header">
+
+    <nav class="navbar nav-1">
+       <section class="flex">
+          <a href="real.HTML" class="logo"></a>
+ 
+          <ul>
+             <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
+          </ul>
+       </section>
+    </nav>
+    <nav class="navbar nav-2">
+        <section class="flex">
+           <div id="menu-btn" class="fas fa-bars"></div>
+  
+           <div class="menu">
+              <ul>
+                 <li><a href="#">buy<i class="fas fa-angle-down"></i></a>
+                    <ul>
+                       <li><a href="house.html">house</a></li>
+                       <li><a href="flat.html">flat</a></li>
+                       <li><a href="shop.html">shop</a></li>
+                       <li><a href="#">ready to move</a></li>
+                       <li><a href="#">furnished</a></li>
+                    </ul>
+                 </li>
+                 <li><a href="#">sell<i class="fas fa-angle-down"></i></a>
+                    <ul>
+                       <li><a href="post.html">post property</a></li>
+                       <li><a href="REG_R.HTML">dashboard</a></li>
+                    </ul>
+                 </li>
+                 <li><a href="#">rent<i class="fas fa-angle-down"></i></a>
+                    <ul>
+                       <li><a href="house.html">house</a></li>
+                       <li><a href="flat.html">flat</a></li>
+                       <li><a href="shop.html">shop</a></li>
+                    </ul>
+                 </li>
+                 <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+                    <ul>
+                       <li><a href="about.html">about us</a></i></li>
+                       <li><a href="contact.html">contact us</a></i></li>
+                       <li><a href="faq.html">FAQ</a></i></li>
+                    </ul>
+                 </li>
+              </ul>
+           </div>
+  
+           <ul>
+              <li><a href="#">saved <i class="far fa-heart"></i></a></li>
+              <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+                 <ul>
+                    <li><a href="login.html">login</a></li>
+                    <li><a href="REG_R.HTML">register</a></li>
+                 </ul>
+              </li>
+           </ul>
+        </section>
+     </nav>
+
+</header>
+    <hero-box>
+        <!-- <div class="container" style="background: 
+               linear-gradient(to bottom, rgba(255, 255, 255, 0) 80%, #ffffff 100%),
+               url('BACKSITE2.png');
+               background-repeat: no-repeat;
+               background-position: center;
+               object-fit: cover;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 130%;
+               margin-bottom: 20px;
+               object-fit: cover;">
+               <img src="" class="background-image" alt="Background Image">
+            <div class="text">
+                WELCOME TO YOUR SITE
+            </div>
+            <div class="bottom">
+                <p>WE HAVE GOT PROPERTIES FOR EVERYONE</p>
+            </div>
+        </div> -->
+        <div class="shop-section1">
+            <div class="clkoption">
+                <label><input type="checkbox" id="buy" class="optionss1"> Buy</label>
+                <label><input type="checkbox" id="sell" class="optionss1"> Sell</label>
+                <label><input type="checkbox" id="rent" class="optionss1"> Rent</label>
+               
+            </div>
+            <div class="budget-options">
+                <label>Max: <input type="text" id="maxBudget" pattern="[0-9]" placeholder="Greater than 5k per month..."></label>
+                <label>Min: <input type="text" id="minBudget" pattern="[0-9]" placeholder="less than or ecual to 100L per month..."></label>
+                <button id="searchButton">Search</button>
+            </div>
+        </div>
+        <div class="PROJECTS">
+            <div class="PROJ">
+                <H2 class="p-text">SOME PROJECTS NEARBY</H2>
+            </div>
+        </div>
+
+            <div class="shop-section2">
+             <div class="box5 box">
+                <div class="box-content">
+                    <img src="1A.jpg" class="near-1" alt="budget">
+                    <div id="exmp">
+                        <div class="name-price">
+                            <p id="birla">BIRLA HOUSE</p>
+                            <p id="money">
+                                &#8377 10 K / month</p>
+                        </div>
+                        <div class="owner-price">
+                            <p id="owner">GM group</p>
+                            <p id="money">
+                                price</p>
+                        </div>
+                        <div class="addr-room">
+                            <p id="room" style="color: #ffffff;">	
+                                &#128719 2 &#128701 2 &#127859 1</p>
+                            <p id="bath" style="color: white;"></p>
+                            <p id="add">Rajarhat , kolkata - 700001</p>
+                        </div>
+                    </div>
+                 
+             </div>
+                </div>
+             <div class="box6 box">           
+                 <div class="box-content">
+                    <img src="7A.jpg" class="near-1" alt="budget">
+                    <div id="exmp">
+                        <div class="name-price">
+                            <p id="birla">KINGDOM</p>
+                            <p id="money">
+                                &#8377 08 K / month</p>
+                        </div>
+                        <div class="owner-price">
+                            <p id="owner">GM group</p>
+                            <p id="money">
+                                price</p>
+                        </div>
+                        <div class="addr-room">
+                            <p id="room" style="color: #ffffff;">	
+                                &#128719 2 &#128701 2 &#127859 1</p>
+                            <p id="bath" style="color: white;"></p>
+                            <p id="add">Rajarhat , kolkata - 700001</p>
+                        </div>
+                    </div> 
+             </div></div>
+             <div class="box7 box">           
+                <div class="box-content">
+                    <img src="8A.jpg" class="near-1" alt="budget">
+                    <div id="exmp">
+                        <div class="name-price">
+                            <p id="birla">ROYAL HOUSE</p>
+                            <p id="money">
+                                &#8377 12 K / month</p>
+                        </div>
+                       
+                        <div class="owner-price">
+                            <p id="owner">GM group</p>
+                            <p id="money">
+                                price</p>
+                        </div>
+                        <div class="addr-room">
+                            <p id="room" style="color: #ffffff;">	
+                                &#128719 2 &#128701 2 &#127859 1</p>
+                            <p id="bath" style="color: white;"></p>
+                            <p id="add">Rajarhat , kolkata - 700001</p>
+                        </div>
+                    </div>
+             </div></div>
+             <div class="box8 box">           
+                <div class="box-content">
+                    <img src="9A.jpg" class="near-1" alt="budget">
+                    <div id="exmp">
+                        <div class="name-price">
+                            <p id="birla">SURIYA HOUSE</p>
+                            <p id="money">
+                                &#8377 09 K / month</p>
+                        </div>
+                        <div class="owner-price">
+                            <p id="owner">GM group</p>
+                            <p id="money">
+                                price</p>
+                        </div>
+                        <div class="addr-room">
+                            <p id="room" style="color: #ffffff;">	
+                                &#128719 2 &#128701 2 &#127859 1</p>
+                            <p id="bath" style="color: white;"></p>
+                            <p id="add">Rajarhat , kolkata - 700001</p>
+                        </div>
+                    </div>
+             </div></div>
+            </div>
+            <div class="shop-section3">
+                <div class="box5 box">
+                   <div class="box-content">
+                       <img src="1A.jpg" class="near-1" alt="budget">
+                       <div id="exmp">
+                           <div class="name-price">
+                               <p id="birla">BIRLA HOUSE</p>
+                               <p id="money">
+                                   &#8377 10 K / month</p>
+                           </div>
+                           <div class="owner-price">
+                               <p id="owner">GM group</p>
+                               <p id="money">
+                                   price</p>
+                           </div>
+                           <div class="addr-room">
+                               <p id="room" style="color: #ffffff;">	
+                                   &#128719 2 &#128701 2 &#127859 1</p>
+                               <p id="bath" style="color: white;"></p>
+                               <p id="add">Rajarhat , kolkata - 700001</p>
+                           </div>
+                       </div>
+                    
+                </div>
+                   </div>
+                <div class="box6 box">           
+                    <div class="box-content">
+                       <img src="7A.jpg" class="near-1" alt="budget">
+                       <div id="exmp">
+                           <div class="name-price">
+                               <p id="birla">KINGDOM</p>
+                               <p id="money">
+                                   &#8377 08 K / month</p>
+                           </div>
+                           <div class="owner-price">
+                               <p id="owner">GM group</p>
+                               <p id="money">
+                                   price</p>
+                           </div>
+                           <div class="addr-room">
+                               <p id="room" style="color: #ffffff;">	
+                                   &#128719 2 &#128701 2 &#127859 1</p>
+                               <p id="bath" style="color: white;"></p>
+                               <p id="add">Rajarhat , kolkata - 700001</p>
+                           </div>
+                       </div> 
+                </div></div>
+                <div class="box7 box">           
+                   <div class="box-content">
+                       <img src="8A.jpg" class="near-1" alt="budget">
+                       <div id="exmp">
+                           <div class="name-price">
+                               <p id="birla">ROYAL HOUSE</p>
+                               <p id="money">
+                                   &#8377 12 K / month</p>
+                           </div>
+                          
+                           <div class="owner-price">
+                               <p id="owner">GM group</p>
+                               <p id="money">
+                                   price</p>
+                           </div>
+                           <div class="addr-room">
+                               <p id="room" style="color: #ffffff;">	
+                                   &#128719 2 &#128701 2 &#127859 1</p>
+                               <p id="bath" style="color: white;"></p>
+                               <p id="add">Rajarhat , kolkata - 700001</p>
+                           </div>
+                       </div>
+                </div></div>
+                <div class="box8 box">           
+                   <div class="box-content">
+                       <img src="9A.jpg" class="near-1" alt="budget">
+                       <div id="exmp">
+                           <div class="name-price">
+                               <p id="birla">SURIYA HOUSE</p>
+                               <p id="money">
+                                   &#8377 09 K / month</p>
+                           </div>
+                           <div class="owner-price">
+                               <p id="owner">GM group</p>
+                               <p id="money">
+                                   price</p>
+                           </div>
+                           <div class="addr-room">
+                               <p id="room" style="color: #ffffff;">	
+                                   &#128719 2 &#128701 2 &#127859 1</p>
+                               <p id="bath" style="color: white;"></p>
+                               <p id="add">Rajarhat , kolkata - 700001</p>
+                           </div>
+                       </div>
+                </div></div>
+               </div>
+        </div>
+        
+    </hero-box>
+    <footer>
+        <div class="foot" style="background-color: rgb(49, 84, 115);">
+         <div class="explore">
+            <p id="exp">Explore properties from around the world</p>
+
+            <button id="button-foot">
+            <p id="contact">CONTACT US</p></button>
+         </div>
+        </div>
+        <div class="foot2">
+          <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+          <div class="advirtise">
+            <p id="adv">Advertise with us</p>
+            <p id="adv">Help centre</p>
+            <p id="adv">Agent admin</p>
+            <p id="adv">Media sales</p>
+            <p id="adv">Legal</p>
+            <p id="adv">Privacy centre</p>
+            <p id="adv">Site map</p>
+            <p id="adv">Careers</p>
+          </div>
+        </div>
+    </footer>
+    
+   
+</body>
+</html>
